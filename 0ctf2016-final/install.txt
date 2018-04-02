@@ -1,0 +1,3 @@
+ubuntu 14.04
+
+把z0ne.sh和z0ne.zip放/root目录下，以root身份执行z0ne.sh

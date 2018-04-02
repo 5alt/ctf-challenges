@@ -1,0 +1,9 @@
+1. debug
+2. check flag没检查id，流量转发
+3. 注册@5alt.me的用户
+4. 任意文件下载(下secret，伪造session)
+5. 任意文件上传
+6. reset password: newpwd处有注入
+7. activate处注入
+8. reg处注入
+9. reg处命令执行
