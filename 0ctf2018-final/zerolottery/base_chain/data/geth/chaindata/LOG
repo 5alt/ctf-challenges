@@ -1,0 +1,36 @@
+=============== May 10, 2018 (CST) ===============
+16:10:44.586790 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:10:44.587907 db@open opening
+16:10:44.590273 version@stat F·[] S·0B[] Sc·[]
+16:10:44.590496 db@janitor F·2 G·0
+16:10:44.590516 db@open done T·2.597713ms
+=============== May 10, 2018 (CST) ===============
+16:10:57.087312 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:10:57.087510 version@stat F·[] S·0B[] Sc·[]
+16:10:57.087529 db@open opening
+16:10:57.087583 journal@recovery F·1
+16:10:57.092165 journal@recovery recovering @1
+16:10:57.093195 memdb@flush created L0@2 N·11 S·704B "Hp\xbb..\xacII,v5":"\xa6\xb5\xd5..\xe3\x9bq,v2"
+16:10:57.097926 version@stat F·[1] S·704B[704B] Sc·[0.25]
+16:10:57.099249 db@janitor F·3 G·0
+16:10:57.099275 db@open done T·11.738909ms
+16:46:06.250410 db@close closing
+16:46:06.251200 db@close done T·786.956µs
+=============== May 10, 2018 (CST) ===============
+16:49:29.849043 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:49:29.849874 version@stat F·[1] S·704B[704B] Sc·[0.25]
+16:49:29.849896 db@open opening
+16:49:29.849966 journal@recovery F·1
+16:49:29.853390 journal@recovery recovering @3
+16:49:29.854763 memdb@flush created L0@5 N·228 S·11KiB "\b\xdf\x1e..bp\xd0,v240":"\xff\xd0#..\r\xe7x,v232"
+16:49:29.858177 version@stat F·[2] S·12KiB[12KiB] Sc·[0.50]
+16:49:29.859304 db@janitor F·4 G·0
+16:49:29.859330 db@open done T·9.429957ms
+16:49:47.774481 table@compaction L0·2 -> L1·0 S·12KiB Q·243
+16:49:47.775867 table@build created L1@8 N·170 S·10KiB "\b\xdf\x1e..bp\xd0,v240":"\xff\xd0#..\r\xe7x,v232"
+16:49:47.775908 version@stat F·[0 1] S·10KiB[0B 10KiB] Sc·[0.00 0.00]
+16:49:47.776079 table@compaction committed F-1 S-1KiB Ke·0 D·69 T·1.547476ms
+16:49:47.776276 table@remove removed @5
+16:49:47.776443 table@remove removed @2
+16:49:51.451642 db@close closing
+16:49:51.451799 db@close done T·155.197µs
